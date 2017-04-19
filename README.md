@@ -3,12 +3,17 @@
 Another simple todo
 
 ## Expo
-  You can immediate checkout on expo: (exp://ad-ibw.anhtuank7c.todo.example.direct:80)[exp://ad-ibw.anhtuank7c.todo.example.direct:80]
+  You can immediate checkout on expo: `exp://ad-ibw.anhtuank7c.todo.example.direct:80`
 
 ## Dependencies
 - mobx
 - mobx-react
 - @expo/vector-icons
+- fake end point: https://jsonplaceholder.typicode.com/
+
+## Important
+
+Fake end point does not allow us to modify real data, but they can return http code as 200, 201, 404 etc...
 
 ## Usage
 
@@ -17,7 +22,7 @@ git clone https://github.com/anhtuank7c/todo.git
 cd todo
 yarn
 yarn start
-Open expo on your phone and scaning QR code
+Open expo on your phone and scan QR code
 ```
 
 
